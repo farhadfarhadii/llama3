@@ -1,0 +1,10 @@
+name: llama3
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - setuptools
+  - black
+  - pip
+  - pip:
+    - commitizen
